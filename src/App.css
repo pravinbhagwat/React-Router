@@ -1,0 +1,21 @@
+.navbar {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar li a:hover {
+  color: greenyellow;
+}
+
+.navbar li.active a {
+  color: rgb(255, 47, 47);
+}
